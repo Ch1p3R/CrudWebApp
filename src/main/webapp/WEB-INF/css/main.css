@@ -1,0 +1,109 @@
+body {
+    background-color: #fffff1;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top center;
+}
+main{
+    margin-bottom: 40px;
+    size: 40px;
+}
+h1{
+
+    color: #100814;
+    width: 182px;
+    height: 50px;
+    margin: 35px auto;
+}
+
+div.mainbutton {
+    width: 136px;
+    margin: 0 auto;
+}
+
+a.button8 {
+    display: inline-block;
+    color: #7be759;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a.button8:hover { background: rgba(163, 255, 43, 0.2); }
+a.button8:active { background: #afe2ff; }
+
+.row{
+    width: 430px;
+    margin: 0 auto;
+}
+
+.firstTable {
+    border: solid 2px #3c3e3e;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    margin: 15px auto;
+    width:65%;
+}
+.firstTable thead th {
+    background-color: #424145;
+    border: solid 1px #1d2424;
+    color: #336B6B;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+.firstTable tbody td {
+    border: solid 1px #100814;
+    color: #333;
+    padding: 14px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.firstTable tbody tr:hover {
+    background-color: #a6e7aa;
+}
+.firstTable tbody td {
+/*    border-left: none;
+    border-right: none;*/
+}
+.col{
+    width: 20%;
+}
+.secondTable{
+    margin: 15px auto;
+    font: normal 13px Arial, sans-serif;
+    width:30%;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin-left: 550px;
+    margin-right: auto;
+
+}
+ul.pagination li {
+    display: inline;
+}
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+ul.pagination li a.active {
+    background-color: #a6e7aa;
+    color: #100814;
+}
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+
+
